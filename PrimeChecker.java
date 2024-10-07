@@ -20,12 +20,13 @@ public class PrimeChecker {
             return false;
         }
         
+        
         for(int i = 2; i <= Math.sqrt(number); i++) {
             if(number % i == 0) {
                 return false;
             }
         }
-        
+        System.out.println("Success");
         return true;
     }
 }
